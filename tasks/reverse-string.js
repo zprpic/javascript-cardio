@@ -32,7 +32,7 @@ module.exports = reverseString = (string) => {
   });
   return reversedString; */
   /////////////////////////
-  return string
+  /*   return string
     .split("")
-    .reduce((reversedString, char) => char + reversedString, "");
+    .reduce((reversedString, char) => char + reversedString, ""); */
 };

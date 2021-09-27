@@ -1,3 +1,5 @@
-const reverseString = require("./tasks/reverse-string");
+const isPalindrome = require("./tasks/palindrome-validation");
 
-console.log(reverseString("hello"));
+console.log(isPalindrome("hello world"));
+console.log(isPalindrome("racecar"));
+console.log(isPalindrome("la la la la"));
