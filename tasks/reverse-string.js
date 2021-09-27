@@ -11,10 +11,9 @@ module.exports = reverseString = (string) => {
   /*   const reversedString = string.split("").reverse().join("");
   return reversedString;
   return string.split("").reverse().join(""); */
-  /*   const stringToArray = string.split("");
   let reversedString = "";
-  for (let i = stringToArray.length - 1; i >= 0; i--) {
-    reversedString += stringToArray[i];
+  for (let i = string.length - 1; i >= 0; i--) {
+    reversedString += string[i];
   }
-  return reversedString; */
+  return reversedString;
 };
