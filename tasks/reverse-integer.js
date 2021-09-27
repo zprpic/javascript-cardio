@@ -2,5 +2,6 @@
 // e.g. reverseInteger(123) === 321
 
 module.exports = reverseInteger = (number) => {
-  return Number(Array.from(String(number), Number).reverse().join(""));
+  //return Number(Array.from(String(number), Number).reverse().join(""));
+  //return Number(number.toString().split("").reverse().join(""));
 };
