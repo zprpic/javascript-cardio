@@ -4,7 +4,7 @@
 // multiples of 3 AND 5 print "fizz buzz"
 
 module.exports = fizzBuzz = (number) => {
-  for (let i = 1; i <= number; i++) {
+  /*   for (let i = 1; i <= number; i++) {
     // if (i % 15 === 0) {
     //console.log(`Fizz Buzz: ${i}`)
     //}
@@ -17,5 +17,5 @@ module.exports = fizzBuzz = (number) => {
     } else {
       console.log(i);
     }
-  }
+  } */
 };
