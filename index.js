@@ -1,3 +1,3 @@
 const reverseInteger = require("./tasks/reverse-integer");
 
-console.log(reverseInteger(12345));
+console.log(reverseInteger(-12345));

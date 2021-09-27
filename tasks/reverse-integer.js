@@ -3,5 +3,7 @@
 
 module.exports = reverseInteger = (number) => {
   //return Number(Array.from(String(number), Number).reverse().join(""));
-  //return Number(number.toString().split("").reverse().join(""));
+  return (
+    parseInt(number.toString().split("").reverse().join("")) * Math.sign(number)
+  );
 };
