@@ -2,7 +2,9 @@
 // e.g. maxCharacter("javascript") === "a"
 
 module.exports = maxCharacter = (string) => {
-  const charMap = {};
+  /*   const charMap = {};
+  let maxNum = 0;
+  let maxChar = "";
 
   string.split("").forEach((char) => {
     if (charMap[char]) {
@@ -12,5 +14,11 @@ module.exports = maxCharacter = (string) => {
     }
   });
 
-  return charMap;
+  for (let char in charMap) {
+    if (charMap[char] > maxNum) {
+      maxNum = charMap[char];
+      maxChar = char;
+    }
+  }
+  return maxChar; */
 };
