@@ -1,3 +1,3 @@
-const capitalizeString = require("./tasks-1/capitalize-letters");
+const maxCharacter = require("./tasks-1/max-character");
 
-console.log(capitalizeString("i love javascript"));
+console.log(maxCharacter("javascript"));
