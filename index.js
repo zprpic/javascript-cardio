@@ -1,3 +1,3 @@
-const maxCharacter = require("./tasks-1/max-character");
+const fizzBuzz = require("./tasks-1/fizz-buzz");
 
-console.log(maxCharacter("javascriptttt"));
+fizzBuzz(100);
