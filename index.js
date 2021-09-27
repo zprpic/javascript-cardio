@@ -1,5 +1,3 @@
-const isPalindrome = require("./tasks/palindrome-validation");
+const reverseInteger = require("./tasks/reverse-integer");
 
-console.log(isPalindrome("hello world"));
-console.log(isPalindrome("racecar"));
-console.log(isPalindrome("la la la la"));
+console.log(reverseInteger(12345));
