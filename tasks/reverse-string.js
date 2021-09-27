@@ -24,4 +24,11 @@ module.exports = reverseString = (string) => {
     reversedString = char + reversedString;
   }
   return reversedString; */
+  /////////////////////////
+  let reversedString = "";
+  let stringToArray = string.split("");
+  stringToArray.forEach((char) => {
+    reversedString = char + reversedString;
+  });
+  return reversedString;
 };
