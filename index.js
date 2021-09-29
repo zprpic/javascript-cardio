@@ -1,4 +1,3 @@
-const isAnagram = require("./tasks-2/anagrams");
+const letterChanges = require("./tasks-2/letter-changes");
 
-console.log(isAnagram("elbow", "b!!!!!elow"));
-console.log(isAnagram("hahahahaha", "LOLO24$%2"));
+console.log(letterChanges("HellO There"));
