@@ -23,7 +23,8 @@ module.exports = longestWord = (string) => {
     }
   });
   return longestWord; */
-  const wordArray = string.toLowerCase().match(/[a-z0-9]+/g);
+  ///////////////////////////////////////
+  /*   const wordArray = string.toLowerCase().match(/[a-z0-9]+/g);
 
   const sorted = wordArray.sort((a, b) => {
     return b.length - a.length;
@@ -37,5 +38,5 @@ module.exports = longestWord = (string) => {
     return longestWordArray[0];
   } else {
     return longestWordArray;
-  }
+  } */
 };

@@ -1,9 +1,3 @@
-const longestWord = require("./tasks-2/longest-word");
+const chunkArray = require("./tasks-2/array-chunking");
 
-console.log(longestWord("Hello my name is zvono"));
-console.log(longestWord("Hello my name is zvono haha can you believe it?"));
-console.log(
-  longestWord(
-    "haha xd haha xd haha impossible feature! how!? abc123456 abc12345678 abc12345678 abc12345678"
-  )
-);
+console.log(chunkArray([1, 2, 3, 4, 5, 6, 7], 3));
