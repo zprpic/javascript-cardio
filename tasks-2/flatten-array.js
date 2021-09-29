@@ -8,8 +8,8 @@ module.exports = flattenArray = (arrays) => {
     });
       return flattenedArray;
   }); */
-
-  return arrays.reduce((a, b) => {
+  /*   return arrays.reduce((a, b) => {
     return a.concat(b);
-  });
+  }); */
+  //return [].concat(...arrays);
 };

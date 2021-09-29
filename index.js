@@ -1,3 +1,4 @@
-const flattenArray = require("./tasks-2/flatten-array");
+const isAnagram = require("./tasks-2/anagrams");
 
-console.log(flattenArray([[1, 2], [3, 4], [5, 6], [7], [8, 9, 10]]));
+console.log(isAnagram("elbow", "b!!!!!elow"));
+console.log(isAnagram("hahahahaha", "LOLO24$%2"));
