@@ -2,7 +2,7 @@
 // e.g. maxCharacter("javascript") === "a"
 
 module.exports = maxCharacter = (string) => {
-  /*   const charMap = {};
+  const charMap = {};
   let maxNum = 0;
   let maxChar = "";
 
@@ -20,5 +20,5 @@ module.exports = maxCharacter = (string) => {
       maxChar = char;
     }
   }
-  return maxChar; */
+  return maxChar;
 };

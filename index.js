@@ -1,3 +1,4 @@
-const fizzBuzz = require("./tasks-1/fizz-buzz");
+const longestWord = require("./tasks-2/longest-word");
 
-fizzBuzz(100);
+console.log(longestWord("Hello my name is zvono"));
+console.log(longestWord("Hello my name is zvono haha can you believe it?"));
