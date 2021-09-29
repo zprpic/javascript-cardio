@@ -14,8 +14,12 @@ module.exports = longestWord = (string) => {
       longestWord = "";
       longestWord = word;
     } else if (word.length === maxLength) {
-      longestWord = longestWord.split(" ");
-      longestWord.push(word);
+      if (!Array.isArray(longestWord)) {
+        longestWord = longestWord.split(" ");
+        longestWord.push(word);
+      } else {
+        longestWord.push(word);
+      }
     }
   });
   return longestWord;
