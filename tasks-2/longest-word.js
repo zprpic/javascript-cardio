@@ -4,7 +4,7 @@
 // e.g. ("hello my name is zvono") === "[hello, zvono]"
 
 module.exports = longestWord = (string) => {
-  const wordsSplit = string.split(" ");
+  /*   const wordsSplit = string.split(" ");
   let maxLength = 0;
   let longestWord;
 
@@ -22,5 +22,20 @@ module.exports = longestWord = (string) => {
       }
     }
   });
-  return longestWord;
+  return longestWord; */
+  const wordArray = string.toLowerCase().match(/[a-z0-9]+/g);
+
+  const sorted = wordArray.sort((a, b) => {
+    return b.length - a.length;
+  });
+
+  const longestWordArray = sorted.filter((word) => {
+    return word.length === sorted[0].length;
+  });
+
+  if (longestWordArray.length === 1) {
+    return longestWordArray[0];
+  } else {
+    return longestWordArray;
+  }
 };
