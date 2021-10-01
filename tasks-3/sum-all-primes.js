@@ -2,7 +2,7 @@
 // e.g. sumAllPrimes(10) === "17"
 
 module.exports = sumAllPrimes = (number) => {
-  let total = 0;
+  /*   let total = 0;
 
   function checkForPrime(i) {
     for (let j = 2; j < i; j++) {
@@ -17,5 +17,5 @@ module.exports = sumAllPrimes = (number) => {
       total += i;
     }
   }
-  return total;
+  return total; */
 };
