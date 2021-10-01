@@ -1,3 +1,3 @@
-const addAll = require("./tasks-3/add-all");
+const sumAllPrimes = require("./tasks-3/sum-all-primes");
 
-console.log(addAll(2, 5, 6, 7));
+console.log(sumAllPrimes(10));

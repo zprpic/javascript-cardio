@@ -8,9 +8,9 @@
 }; */
 
 module.exports = function addAll() {
-  let result = 0;
+  /*   let result = 0;
   for (let number in arguments) {
     result += arguments[number];
   }
-  return result;
+  return result; */
 };
