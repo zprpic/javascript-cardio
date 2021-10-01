@@ -2,7 +2,7 @@
 // e.g. chunkArray([1, 2, 3, 4, 5, 6, 7], 3) === [[1, 2, 3], [4, 5, 6], [7]]
 
 module.exports = chunkArray = (array, length) => {
-  let chunkedArray = [];
+  /*   let chunkedArray = [];
   let i = 0;
 
   while (i < array.length) {
@@ -10,5 +10,5 @@ module.exports = chunkArray = (array, length) => {
     i += length;
   }
 
-  return chunkedArray;
+  return chunkedArray; */
 };

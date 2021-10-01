@@ -1,3 +1,3 @@
-const letterChanges = require("./tasks-2/letter-changes");
+const addAll = require("./tasks-3/add-all");
 
-console.log(letterChanges("HellO There"));
+console.log(addAll(2, 5, 6, 7));
