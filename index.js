@@ -1,3 +1,3 @@
-const seekAndDestroy = require("./tasks-3/seek-and-destroy");
+const sortByHeight = require("./tasks-3/sort-by-height");
 
-console.log(seekAndDestroy([2, 3, 4, 6, 6, "hello"], 2, 6));
+console.log(sortByHeight([-1, 150, 130, -1, -1, 120, 160]));
